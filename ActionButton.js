@@ -49,7 +49,8 @@ export default class ActionButton extends Component {
   getButtonSize() {
     return {
       width: this.props.size,
-      height: this.props.size + shadowHeight,
+      height: this.props.size,
+      borderRadius: this.props.size / 2
     }
   }
 
